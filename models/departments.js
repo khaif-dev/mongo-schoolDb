@@ -7,4 +7,4 @@ const departmentSchema = new Schema({
 });
 
 const Department = mongoose.model('Department', departmentSchema);
-module.exports = Department;
+module.exports = { Department };
