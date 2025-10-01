@@ -25,7 +25,7 @@ async function create(){
 
     await Teacher.insertMany([
         {name:"Jane Doe", gender:"female"},
-        {name: "Peter A ndrew"}
+        {name: "Peter Andrew"}
     ]);
 
     await Subject.insertMany([
